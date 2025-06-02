@@ -8,8 +8,8 @@ class PDFMergerApp:
     def __init__(self, master):
         self.master = master
         self.master.title("PDF Merger")
-        self.master.geometry("500x550")
-        self.master.configure(bg="#f5f5f5")  # cor de fundo suave
+        self.master.geometry("520x500")
+        self.master.configure(bg="#f5f5f5")
 
         self.pdf_files = []
 
